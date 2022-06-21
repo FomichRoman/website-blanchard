@@ -454,6 +454,10 @@
     height: 334px;
   }
 
+  .gallery__popup {
+    padding: 1755px 50px 0 50px;
+  }
+
   /* catalog */
 
   .catalog__contant {
@@ -698,11 +702,34 @@
   .gallery .gallery__swiper {
     display: flex;
     flex-direction: column-reverse;
-    height: 454px;
+    justify-content: flex-end;
+  }
+
+  .gallery__swiper-wrapper {
+    height: 388px;
   }
 
   .gallery__swiper-pagination-block {
     padding: 0 0 0 78px;
+  }
+
+  .gallery__popup {
+    padding: 1040px 15px 0 15px;
+  }
+
+  .popup__wrap {
+    flex-direction: column;
+    min-height: 530px;
+  }
+
+  .popup__left {
+    width: 100%;
+    height: 200px;
+  }
+
+  .popup__right {
+    padding: 50px 50px;
+    width: 100%;
   }
 
   /* catalog */
@@ -811,7 +838,6 @@
 
   .projects__container {
     padding: 46px 50px 30px;
-    overflow: hidden;
   }
 
   .projects__title {
@@ -926,6 +952,12 @@
     height: 50px;
   }
 
+  /* map */
+
+  .maps__block {
+    height: 320px;
+  }
+
   /* footer */
 
   .footer-container {
@@ -973,6 +1005,15 @@
 
   .gallery__swiper-slide {
     min-height: 367px;
+  }
+
+  .gallery__popup {
+    padding: 1465px 15px 0 15px;
+  }
+
+  .popup__right {
+    padding: 20px 20px;
+    width: 100%;
   }
 
   .catalog__container {

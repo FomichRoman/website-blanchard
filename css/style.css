@@ -328,9 +328,11 @@ body {
 }
 
 .dropdown__item:active {
-  background: linear-gradient(0deg,
-      rgba(194, 131, 243, 0.4),
-      rgba(194, 131, 243, 0.4));
+  background: linear-gradient(
+    0deg,
+    rgba(194, 131, 243, 0.4),
+    rgba(194, 131, 243, 0.4)
+  );
   outline: 2px solid #d1a9f0;
 }
 
@@ -503,8 +505,7 @@ body {
 
 .gallery {
   min-height: 595px;
-  background-image:
-    url("../img/gallery/gallery-back.jpg");
+  background-image: url("../img/gallery/gallery-back.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -651,8 +652,7 @@ body {
   display: block;
   width: 5px;
   height: 5px;
-  background:
-    url(../img/gallery/checked.svg) no-repeat;
+  background: url(../img/gallery/checked.svg) no-repeat;
   background-size: 5px 5px;
   position: absolute;
   top: 8.5px;
@@ -661,31 +661,31 @@ body {
   transition: opacity 0.1s ease-in-out;
 }
 
-.checkbox__input:focus:not(:hover):not(:active)+.checkbox__label {
+.checkbox__input:focus:not(:hover):not(:active) + .checkbox__label {
   color: var(--focus-color);
 }
 
-.checkbox__input:focus:not(:hover):not(:active)+.checkbox__label::before {
+.checkbox__input:focus:not(:hover):not(:active) + .checkbox__label::before {
   border: 1px solid var(--focus-color);
 }
 
-.checkbox__input:hover+.checkbox__label {
+.checkbox__input:hover + .checkbox__label {
   color: var(--focus-color);
 }
 
-.checkbox__input:hover+.checkbox__label::before {
+.checkbox__input:hover + .checkbox__label::before {
   border: 1px solid var(--focus-color);
 }
 
-.checkbox__input:checked+.checkbox__label::after {
+.checkbox__input:checked + .checkbox__label::after {
   opacity: 1;
 }
 
-.checkbox__input:checked+.checkbox__label::before {
+.checkbox__input:checked + .checkbox__label::before {
   border: 1px solid var(--focus-color);
 }
 
-.checkbox__input:checked+.checkbox__label {
+.checkbox__input:checked + .checkbox__label {
   color: var(--focus-color);
 }
 
@@ -713,8 +713,7 @@ body {
   transform: translateX(-50%) translateY(-50%);
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.1s ease-in-out,
-    visibility 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out, visibility 0.1s ease-in-out;
 }
 
 .gallery__swiper-slide::after {
@@ -724,16 +723,14 @@ body {
   left: 50%;
   width: 23.14285714%;
   height: 22.57142857%;
-  background-image:
-    url("../img/catalog/hover.svg");
+  background-image: url("../img/catalog/hover.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
   transform: translateX(-50%) translateY(-50%);
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.1s ease-in-out,
-    visibility 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out, visibility 0.1s ease-in-out;
 }
 
 .gallery__swiper-slide:focus:not(:hover):not(:active) {
@@ -770,9 +767,11 @@ body {
 }
 
 .gallery__swiper-slide-1:active {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(194, 131, 243, 0.4),
-      rgba(194, 131, 243, 0.4)),
+      rgba(194, 131, 243, 0.4)
+    ),
     url(A5A9A825-44DE-45C8-8EBD-70ED43DAA3B7), url("../img/gallery/slide-1.jpg");
 }
 
@@ -781,9 +780,11 @@ body {
 }
 
 .gallery__swiper-slide-2:active {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(194, 131, 243, 0.4),
-      rgba(194, 131, 243, 0.4)),
+      rgba(194, 131, 243, 0.4)
+    ),
     url(A5A9A825-44DE-45C8-8EBD-70ED43DAA3B7), url("../img/gallery/slide-2.jpg");
 }
 
@@ -792,9 +793,11 @@ body {
 }
 
 .gallery__swiper-slide-3:active {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(194, 131, 243, 0.4),
-      rgba(194, 131, 243, 0.4)),
+      rgba(194, 131, 243, 0.4)
+    ),
     url(A5A9A825-44DE-45C8-8EBD-70ED43DAA3B7), url("../img/gallery/slide-3.jpg");
 }
 
@@ -803,9 +806,11 @@ body {
 }
 
 .gallery__swiper-slide-4:active {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(194, 131, 243, 0.4),
-      rgba(194, 131, 243, 0.4)),
+      rgba(194, 131, 243, 0.4)
+    ),
     url(A5A9A825-44DE-45C8-8EBD-70ED43DAA3B7), url("../img/gallery/slide-4.jpg");
 }
 
@@ -814,9 +819,11 @@ body {
 }
 
 .gallery__swiper-slide-5:active {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(194, 131, 243, 0.4),
-      rgba(194, 131, 243, 0.4)),
+      rgba(194, 131, 243, 0.4)
+    ),
     url(A5A9A825-44DE-45C8-8EBD-70ED43DAA3B7), url("../img/gallery/slide-5.jpg");
 }
 
@@ -825,9 +832,11 @@ body {
 }
 
 .gallery__swiper-slide-6:active {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(194, 131, 243, 0.4),
-      rgba(194, 131, 243, 0.4)),
+      rgba(194, 131, 243, 0.4)
+    ),
     url(A5A9A825-44DE-45C8-8EBD-70ED43DAA3B7), url("../img/gallery/slide-6.jpg");
 }
 
@@ -887,7 +896,7 @@ body {
   display: none;
   align-items: flex-start;
   justify-content: center;
-  padding: 1300px 0 0 0;
+  padding: 1300px 215px 0 215px;
   top: 0;
   left: 0;
   width: 100%;
@@ -902,23 +911,21 @@ body {
 
 .popup__wrap {
   position: relative;
-  align-items: center;
   max-width: 900px;
+  min-height: 500px;
   background-color: #fff;
 }
 
 .popup__left {
-  max-width: 400px;
-  max-height: 500px;
+  width: 44.44%;
+  background: url('../img/gallery/popup/popup-1.jpg') no-repeat center / cover;
 }
 
 .popup__right {
-  max-width: 500px;
-}
-
-.popup__contant {
+  width: 55.55%;
+  align-self: center;
   flex-direction: column;
-  padding: 0 50px;
+  padding: 100px 50px;
 }
 
 .popup__title {
@@ -990,7 +997,6 @@ body {
   transform: rotate(-45deg);
 }
 
-
 /* catalog */
 
 .catalog__container {
@@ -1056,7 +1062,7 @@ body {
   border-top-color: var(--active-color) !important;
 }
 
-.catalog__item:first-child+.is-active {
+.catalog__item:first-child + .is-active {
   border-top-color: var(--active-color);
 }
 
@@ -1254,7 +1260,8 @@ body {
   flex-direction: column;
 }
 
-.swiper-autoheight, .swiper-autoheight .swiper-slide {
+.swiper-autoheight,
+.swiper-autoheight .swiper-slide {
   height: 100%;
 }
 
@@ -1279,8 +1286,7 @@ body {
   top: 347px;
   right: -29px;
   background-image: url("../img/events/btn-next.svg");
-  transition: outline 0.2s ease-in-out,
-    background-color 0.2s ease-in-out;
+  transition: outline 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .events__swiper-button-prev {
@@ -1288,8 +1294,7 @@ body {
   left: -29px;
   background-image: url("../img/events/btn-next.svg");
   transform: rotate(180deg);
-  transition: outline 0.2s ease-in-out,
-    background-color 0.2s ease-in-out;
+  transition: outline 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .swiper-button-prev.swiper-button-disabled {
@@ -1414,6 +1419,7 @@ body {
 
 .projects__container {
   padding: 23px 50px 80px;
+  overflow: hidden;
 }
 
 .projects__title {
@@ -1816,6 +1822,11 @@ body {
 }
 
 /* maps */
+
+.maps__block {
+  width: 100%;
+  height: 700px;
+}
 
 .maps__title {
   position: absolute !important;
